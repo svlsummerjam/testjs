@@ -1,7 +1,7 @@
 testjs
 ==================
 
-Realtime data graph for Arduino using Pubnub + d3.js.
+Realtime graph for Arduino using Pubnub + d3.js.
 
 ### Usage
     
