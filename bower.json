@@ -1,0 +1,10 @@
+{
+	"name": "testjs",
+	"version": "0.1.0",
+  "dependencies": {
+    "odometer": "latest",
+    "d3": "latest",
+    "jquery": "latest",
+    "pubnub": "latest"
+  }
+}

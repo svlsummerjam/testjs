@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Arduino Test</title>
+
+        <link type="text/css" rel="stylesheet" href="static/css/custom/style.css" />
+        <link type="text/css" rel="stylesheet" href="static/lib/odometer/themes/odometer-theme-default.css" />
+        <link type="text/css" rel="stylesheet" href="static/css/pubnub/pubnub.css" />
+    </head>
+
+    <body>
+    <div class="container">
+        <div class="row row-center">
+
+            <div class="col-sm-2">
+                <h2 class="inline">Light: </h2><h2 id="light" class="odometer">0.00</h2>
+            </div>
+            <div class="col-sm-2">
+                <h2 class="inline">Temp: </h2><h2 id="temp" class="odometer">0.00</h2>
+            </div>
+            <div class="col-sm-2">
+                <h2 class="inline">Moisture: </h2><h2 id="moisture" class="odometer">0.00</h2>
+            </div>
+
+            <div class="col-sm-4">
+                <h2 class="inline">Users:</h2><h2 id="users" class="odometer">0</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="chart"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="static/lib/jquery/dist/jquery.min.js"></script>
+    <script src="static/lib/odometer/odometer.min.js"></script>
+    <script src="static/lib/pubnub/web/pubnub.min.js"></script>
+    <script src="static/lib/d3/d3.min.js" charset="utf-8"></script>
+    <script src="static/js/custom/main.js"></script>
+    </body>
+</html>
